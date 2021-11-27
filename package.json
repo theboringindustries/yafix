@@ -1,0 +1,16 @@
+{
+  "name": "Yafix",
+  "version": "1.0.0",
+  "description": "Fixes that annoying pause bug",
+  "author": "montecamo",
+  "license": "MIT",
+  "repository": "https://github.com/theboringindustries/yafix",
+  "type": "module",
+  "scripts": {
+    "build": "NODE_ENV=pdoduction node build.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.14.0",
+    "prettier": "2.4.1"
+  }
+}
