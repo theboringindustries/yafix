@@ -1,9 +1,8 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Yafix",
   "description": "Fixes that annoying pause bug",
   "version": "1.0.0",
-  "action": {},
   "content_scripts": [
     {
       "matches": ["https://music.yandex.ru/*"],
@@ -15,11 +14,6 @@
     "128": "icon-128.png"
   },
   "web_accessible_resources": [
-    {
-      "resources": [
-        "script.js"
-      ],
-      "matches": ["https://music.yandex.ru/*"]
-    }
+     "script.js"
   ]
 }
